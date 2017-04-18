@@ -164,8 +164,7 @@ extension FIFOQueue: ExpressibleByArrayLiteral {
 
 
 var numberQueue2 = FIFOQueue.init(arrayLiteral: [11, 12, 13, 14])
-print(numberQueue2.pop())
-
+let t = numberQueue2.pop()
 
 
 
